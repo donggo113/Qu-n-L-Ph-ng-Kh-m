@@ -1,0 +1,199 @@
+{
+    "benh_nhan": [
+        {
+            "ma_bn": "BN001",
+            "ho_ten": "Nguyễn Văn An",
+            "sdt": "0901234567",
+            "ngay_sinh": "1990-05-12",
+            "gioi_tinh": "Nam",
+            "dia_chi": "TP. Hồ Chí Minh",
+            "email": "an.nguyen@gmail.com"
+        },
+        {
+            "ma_bn": "BN002",
+            "ho_ten": "Trần Thị Bình",
+            "sdt": "0987654321",
+            "ngay_sinh": "1995-08-20",
+            "gioi_tinh": "Nữ",
+            "dia_chi": "Hà Nội",
+            "email": "binh.tran@gmail.com"
+        }
+    ],
+    "lich_kham": [
+        {
+            "ma_lich": "LK001",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A (Nội khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "09:00",
+            "ly_do": "Khám bệnh",
+            "trang_thai": "Đã khám"
+        },
+        {
+            "ma_lich": "LK002",
+            "ma_bn": "BN002",
+            "ho_ten_bn": "Trần Thị Bình",
+            "bac_si": "BS. Trần Thị B (Nhi khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "10:30",
+            "ly_do": "Khám bệnh",
+            "trang_thai": "Đã xác nhận"
+        }
+    ],
+    "phieu_kham": [
+        {
+            "ma_pk": "PK001",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A",
+            "ngay_kham": "2026-10-27",
+            "trieu_chung": "dfdsfds",
+            "chan_doan": "fsd",
+            "dich_vu": [
+                {
+                    "ten_dv": "Khám Delectus aut autem",
+                    "gia": 100000
+                },
+                {
+                    "ten_dv": "Khám Delectus aut autem",
+                    "gia": 100000
+                },
+                {
+                    "ten_dv": "Khám Fugiat veniam minus",
+                    "gia": 200000
+                }
+            ],
+            "don_thuoc": [],
+            "tong_tien": 400000,
+            "trang_thai_tt": "Đã thanh toán"
+        },
+        {
+            "ma_pk": "PK002",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A",
+            "ngay_kham": "2026-10-27",
+            "trieu_chung": "sfdfdf",
+            "chan_doan": "rfdfdsf",
+            "dich_vu": [
+                {
+                    "ten_dv": "Khám Delectus aut autem",
+                    "gia": 100000
+                },
+                {
+                    "ten_dv": "Khám Delectus aut autem",
+                    "gia": 100000
+                }
+            ],
+            "don_thuoc": [],
+            "tong_tien": 200000,
+            "trang_thai_tt": "Đã thanh toán"
+        },
+        {
+            "ma_pk": "PK003",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A",
+            "ngay_kham": "2026-10-27",
+            "trieu_chung": "fdfdsf",
+            "chan_doan": "ewfdfds",
+            "dich_vu": [
+                {
+                    "ten_dv": "Khám Et porro tempora",
+                    "gia": 250000
+                },
+                {
+                    "ten_dv": "Khám Qui ullam ratione qu",
+                    "gia": 350000
+                }
+            ],
+            "don_thuoc": [],
+            "tong_tien": 600000,
+            "trang_thai_tt": "Đã thanh toán"
+        }
+    ],
+    "dich_vu": [
+        {
+            "ma_dv": "DV001",
+            "ten_dv": "Khám Delectus aut autem",
+            "gia": 100000
+        },
+        {
+            "ma_dv": "DV002",
+            "ten_dv": "Khám Quis ut nam facilis ",
+            "gia": 150000
+        },
+        {
+            "ma_dv": "DV003",
+            "ten_dv": "Khám Fugiat veniam minus",
+            "gia": 200000
+        },
+        {
+            "ma_dv": "DV004",
+            "ten_dv": "Khám Et porro tempora",
+            "gia": 250000
+        },
+        {
+            "ma_dv": "DV005",
+            "ten_dv": "Khám Laboriosam mollitia ",
+            "gia": 300000
+        },
+        {
+            "ma_dv": "DV006",
+            "ten_dv": "Khám Qui ullam ratione qu",
+            "gia": 350000
+        },
+        {
+            "ma_dv": "DV007",
+            "ten_dv": "Khám Illo expedita conseq",
+            "gia": 400000
+        },
+        {
+            "ma_dv": "DV008",
+            "ten_dv": "Khám Quo adipisci enim qu",
+            "gia": 450000
+        },
+        {
+            "ma_dv": "DV009",
+            "ten_dv": "Khám Molestiae perspiciat",
+            "gia": 500000
+        },
+        {
+            "ma_dv": "DV010",
+            "ten_dv": "Khám Illo est ratione dol",
+            "gia": 50000
+        }
+    ],
+    "thuoc": [],
+    "lich_lam": [
+        {
+            "ma_nv": "admin",
+            "ten_nv": "admin",
+            "ngay": "2026-10-28",
+            "ca_lam": "Sáng (07:30 - 11:30)",
+            "trang_thai": "Đã duyệt"
+        },
+        {
+            "ma_nv": "admin",
+            "ten_nv": "admin",
+            "ngay": "2026-10-28",
+            "ca_lam": "Sáng (07:30 - 11:30)",
+            "trang_thai": "Chờ duyệt"
+        },
+        {
+            "ma_nv": "frae",
+            "ten_nv": "frae",
+            "ngay": "2026-10-28",
+            "ca_lam": "Tối (17:00 - 21:00)",
+            "trang_thai": "Chờ duyệt"
+        },
+        {
+            "ma_nv": "frae",
+            "ten_nv": "frae",
+            "ngay": "2026-10-28",
+            "ca_lam": "Chiều (13:00 - 17:00)",
+            "trang_thai": "Chờ duyệt"
+        }
+    ]
+}

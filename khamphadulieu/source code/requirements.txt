@@ -1,0 +1,2 @@
+# Giao diện dùng thư viện chuẩn Tkinter, riêng phần kết nối SQL Server cần pyodbc.
+pyodbc

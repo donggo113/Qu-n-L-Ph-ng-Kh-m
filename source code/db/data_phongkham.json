@@ -1,0 +1,143 @@
+{
+    "benh_nhan": [],
+    "dich_vu": [
+        {
+            "ma_dv": "DV001",
+            "ten_dv": "Khám Nội Tổng Quát",
+            "gia": 150000
+        },
+        {
+            "ma_dv": "DV002",
+            "ten_dv": "Khám Chuyên Khoa Tai Mũi Họng",
+            "gia": 200000
+        },
+        {
+            "ma_dv": "DV003",
+            "ten_dv": "Xét Nghiệm Máu Tổng Phân Tích (24 Chỉ Số)",
+            "gia": 180000
+        },
+        {
+            "ma_dv": "DV004",
+            "ten_dv": "Siêu Âm Bụng Tổng Quát 4D",
+            "gia": 250000
+        },
+        {
+            "ma_dv": "DV005",
+            "ten_dv": "Chụp X-Quang Lồng Ngực Thẳng",
+            "gia": 120000
+        },
+        {
+            "ma_dv": "DV006",
+            "ten_dv": "Đo Điện Tim Cấp Cứu (ECG)",
+            "gia": 100000
+        },
+        {
+            "ma_dv": "DV007",
+            "ten_dv": "Nội Soi Dạ Dày - Tá Tràng",
+            "gia": 500000
+        },
+        {
+            "ma_dv": "DV008",
+            "ten_dv": "Xét Nghiệm Đường Huyết Lượng (Glucose)",
+            "gia": 80000
+        },
+        {
+            "ma_dv": "DV009",
+            "ten_dv": "Siêu Âm Tim Màu Dopper",
+            "gia": 350000
+        },
+        {
+            "ma_dv": "DV010",
+            "ten_dv": "Tẩy Cặn Vôi Răng & Đánh Bóng",
+            "gia": 200000
+        }
+    ],
+    "phieu_kham": [
+        {
+            "ma_pk": "PK001",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A",
+            "ngay_kham": "2026-10-27",
+            "trieu_chung": "lưu ý uống 2/day",
+            "chan_doan": "ho sốt",
+            "dich_vu": [],
+            "don_thuoc": [],
+            "tong_tien": 254000,
+            "trang_thai_tt": "Đã thanh toán"
+        }
+    ],
+    "lich_kham": [],
+    "thuoc": [
+        {
+            "ma_thuoc": "TH001",
+            "ten_thuoc": "Paracetamol 500mg (Hạ sốt, giảm đau)",
+            "don_vi": "Viên",
+            "don_gia": 1500,
+            "so_luong": 496
+        },
+        {
+            "ma_thuoc": "TH002",
+            "ten_thuoc": "Amoxicillin 500mg (Kháng sinh)",
+            "don_vi": "Viên",
+            "don_gia": 3000,
+            "so_luong": 300
+        },
+        {
+            "ma_thuoc": "TH003",
+            "ten_thuoc": "Panadol Extra (Giảm đau ngoại thần kinh)",
+            "don_vi": "Hộp",
+            "don_gia": 45000,
+            "so_luong": 100
+        },
+        {
+            "ma_thuoc": "TH004",
+            "ten_thuoc": "Efferalgan 500mg (Sủi hạ sốt)",
+            "don_vi": "Ống",
+            "don_gia": 5000,
+            "so_luong": 250
+        },
+        {
+            "ma_thuoc": "TH005",
+            "ten_thuoc": "Berberin (Đặc trị tiêu hóa, tiêu chảy)",
+            "don_vi": "Lọ",
+            "don_gia": 25000,
+            "so_luong": 150
+        },
+        {
+            "ma_thuoc": "TH006",
+            "ten_thuoc": "Gaviscon Gel (Trào ngược dạ dày)",
+            "don_vi": "Gói",
+            "don_gia": 12000,
+            "so_luong": 196
+        },
+        {
+            "ma_thuoc": "TH007",
+            "ten_thuoc": "Siro Ho Prospan (Thảo dược)",
+            "don_vi": "Chai",
+            "don_gia": 75000,
+            "so_luong": 80
+        },
+        {
+            "ma_thuoc": "TH008",
+            "ten_thuoc": "Vitamin C 500mg (Tăng đề kháng)",
+            "don_vi": "Viên",
+            "don_gia": 1000,
+            "so_luong": 600
+        },
+        {
+            "ma_thuoc": "TH009",
+            "ten_thuoc": "Nước muối sinh lý NaCl 0.9%",
+            "don_vi": "Chai",
+            "don_gia": 10000,
+            "so_luong": 400
+        },
+        {
+            "ma_thuoc": "TH010",
+            "ten_thuoc": "Thuốc nhỏ mắt Tobrex 5ml",
+            "don_vi": "Lọ",
+            "don_gia": 55000,
+            "so_luong": 120
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "benh_nhan": [
+        {
+            "ma_bn": "BN001",
+            "ho_ten": "Nguyễn Văn An",
+            "sdt": "0901234567",
+            "ngay_sinh": "1990-05-12",
+            "gioi_tinh": "Nam",
+            "dia_chi": "TP. Hồ Chí Minh"
+        },
+        {
+            "ma_bn": "BN002",
+            "ho_ten": "Trần Thị Bình",
+            "sdt": "0987654321",
+            "ngay_sinh": "1995-08-20",
+            "gioi_tinh": "Nữ",
+            "dia_chi": "Hà Nội"
+        }
+    ],
+    "lich_kham": [
+        {
+            "ma_lich": "LK001",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A (Nội khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "09:00",
+            "trang_thai": "Đã xác nhận"
+        },
+        {
+            "ma_lich": "LK002",
+            "ma_bn": "BN002",
+            "ho_ten_bn": "Trần Thị Bình",
+            "bac_si": "BS. Trần Thị B (Nhi khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "10:30",
+            "trang_thai": "Đã xác nhận"
+        }
+    ]
+}

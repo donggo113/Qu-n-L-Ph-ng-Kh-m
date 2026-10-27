@@ -1,0 +1,60 @@
+{
+  "info": {
+    "name": "FD Tool - PostgREST",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "base_url", "value": "http://localhost:3000" }
+  ],
+  "item": [
+    {
+      "name": "01 - Nhap bai toan + lay ket qua (RPC, 1 request duy nhat)",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "url": "{{base_url}}/rpc/nhap_bai_toan",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"p_attrs\": [\"A\", \"B\", \"C\", \"D\"],\n  \"p_fds\": [\n    {\"lhs\": [\"A\"], \"rhs\": [\"B\"], \"note\": \"A -> B\"},\n    {\"lhs\": [\"B\"], \"rhs\": [\"C\"], \"note\": \"B -> C\"},\n    {\"lhs\": [\"A\"], \"rhs\": [\"D\"], \"note\": \"A -> D\"}\n  ],\n  \"p_tuples\": [\n    {\"A\": \"1\", \"B\": \"10\", \"C\": \"100\", \"D\": \"1000\"},\n    {\"A\": \"2\", \"B\": \"20\", \"C\": \"200\", \"D\": \"2000\"}\n  ],\n  \"p_membership_tests\": [\n    {\"lhs\": [\"A\"], \"rhs\": [\"C\"], \"note\": \"A -> C ?\"},\n    {\"lhs\": [\"B\"], \"rhs\": [\"D\"], \"note\": \"B -> D ?\"}\n  ],\n  \"p_decomposition\": [\n    {\"rel_name\": \"R1\", \"attrs\": [\"A\", \"B\"]},\n    {\"rel_name\": \"R2\", \"attrs\": [\"B\", \"C\"]},\n    {\"rel_name\": \"R3\", \"attrs\": [\"A\", \"D\"]}\n  ]\n}"
+        }
+      }
+    },
+    {
+      "name": "02 - Xem lai Candidate Key (view, GET)",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/v_candidate_keys"
+      }
+    },
+    {
+      "name": "03 - Xem lai Minimal Cover (view, GET)",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/v_minimal_cover"
+      }
+    },
+    {
+      "name": "04 - Xem lai Check 3NF (view, GET)",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/v_check_3nf"
+      }
+    },
+    {
+      "name": "05 - Xem lai Check BCNF (view, GET)",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/v_check_bcnf"
+      }
+    },
+    {
+      "name": "06 - Xem lai Lossless Join (view, GET)",
+      "request": {
+        "method": "GET",
+        "url": "{{base_url}}/v_check_lossless_join"
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+    "benh_nhan": [],
+    "bac_si": [
+        {
+            "ma_bs": "BS001",
+            "ho_ten": "BS. Nguyễn Văn A",
+            "chuyen_khoa": "Nội Khoa",
+            "sdt": "0912345678"
+        },
+        {
+            "ma_bs": "BS002",
+            "ho_ten": "BS. Trần Thị B",
+            "chuyen_khoa": "Tai Mũi Họng",
+            "sdt": "0987654321"
+        }
+    ],
+    "dich_vu": [
+        {
+            "ma_dv": "DV001",
+            "ten_dv": "Khám Nội Tổng Quát",
+            "gia": 150000
+        },
+        {
+            "ma_dv": "DV002",
+            "ten_dv": "Khám Chuyên Khoa Tai Mũi Họng",
+            "gia": 200000
+        },
+        {
+            "ma_dv": "DV003",
+            "ten_dv": "Xét Nghiệm Máu Tổng Phân Tích",
+            "gia": 180000
+        },
+        {
+            "ma_dv": "DV004",
+            "ten_dv": "Siêu Âm Bụng Tổng Quát 4D",
+            "gia": 250000
+        },
+        {
+            "ma_dv": "DV005",
+            "ten_dv": "Chụp X-Quang Lồng Ngực Thẳng",
+            "gia": 120000
+        },
+        {
+            "ma_dv": "DV006",
+            "ten_dv": "Đo Điện Tim Cấp Cứu (ECG)",
+            "gia": 100000
+        }
+    ],
+    "phieu_kham": [],
+    "lich_kham": [
+        {
+            "ma_lich": "LK001",
+            "ma_bn": "BN001",
+            "ho_ten_bn": "Nguyễn Văn An",
+            "bac_si": "BS. Nguyễn Văn A (Nội khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "09:00",
+            "trang_thai": "Đã xác nhận"
+        },
+        {
+            "ma_lich": "LK002",
+            "ma_bn": "BN002",
+            "ho_ten_bn": "Trần Thị Bình",
+            "bac_si": "BS. Trần Thị B (Nhi khoa)",
+            "ngay_kham": "2026-10-27",
+            "gio_kham": "10:30",
+            "trang_thai": "Đã xác nhận"
+        }
+    ],
+    "thuoc": [
+        {
+            "ma_thuoc": "TH001",
+            "ten_thuoc": "Paracetamol 500mg",
+            "don_vi": "Viên",
+            "don_gia": 1500,
+            "so_luong": 500
+        },
+        {
+            "ma_thuoc": "TH002",
+            "ten_thuoc": "Amoxicillin 500mg",
+            "don_vi": "Viên",
+            "don_gia": 3000,
+            "so_luong": 300
+        },
+        {
+            "ma_thuoc": "TH003",
+            "ten_thuoc": "Panadol Extra",
+            "don_vi": "Hộp",
+            "don_gia": 45000,
+            "so_luong": 100
+        },
+        {
+            "ma_thuoc": "TH004",
+            "ten_thuoc": "Efferalgan 500mg",
+            "don_vi": "Ống",
+            "don_gia": 5000,
+            "so_luong": 250
+        },
+        {
+            "ma_thuoc": "TH005",
+            "ten_thuoc": "Berberin",
+            "don_vi": "Lọ",
+            "don_gia": 25000,
+            "so_luong": 150
+        }
+    ],
+    "lich_lam": []
+}

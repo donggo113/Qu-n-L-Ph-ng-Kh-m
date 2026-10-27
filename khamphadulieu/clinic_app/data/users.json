@@ -1,0 +1,9 @@
+[
+  {
+    "id": "US001",
+    "username": "admin",
+    "password_hash": "d8d020b98b5075ff5cc3c87eb670c217884a82bd84357a9ad18290c8c343744d",
+    "salt": "5bcbd3348c5b55797061715af5ff9868",
+    "role": "admin"
+  }
+]
